@@ -1,5 +1,6 @@
 Ticketee::Application.routes.draw do
   
+  get "users/index"
   root :to => "projects#index"
   
   resources :projects do
